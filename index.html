@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Filter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Product Filter</h2>
+
+  <input type="text" id="search" placeholder="Search product..." oninput="filterProducts()">
+
+  <select id="category" onchange="filterProducts()">
+    <option value="all">All</option>
+    <option value="electronics">Electronics</option>
+    <option value="clothing">Clothing</option>
+  </select>
+
+  <div id="products"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

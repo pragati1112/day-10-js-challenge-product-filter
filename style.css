@@ -1,0 +1,21 @@
+body {
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.container {
+  width: 400px;
+}
+
+input, select {
+  padding: 8px;
+  margin: 10px 5px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 10px;
+}
